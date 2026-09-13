@@ -1,0 +1,75 @@
+{
+  "file": "onnx/model_int8.onnx",
+  "bytes": 310821344,
+  "sha256": "1601d9f73a0cc323d4ec6277f77111c528dc6bdaf4da5c4326e74dbaaa02cad6",
+  "shards": [
+    {
+      "name": "onnx/model_int8.onnx.000",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.001",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.002",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.003",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.004",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.005",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.006",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.007",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.008",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.009",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.010",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.011",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.012",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.013",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.014",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.015",
+      "bytes": 18874368
+    },
+    {
+      "name": "onnx/model_int8.onnx.016",
+      "bytes": 8831456
+    }
+  ]
+}

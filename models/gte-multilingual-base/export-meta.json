@@ -1,0 +1,28 @@
+{
+  "model": "gte",
+  "repo": "Alibaba-NLP/gte-multilingual-base",
+  "mode": "weight-only",
+  "per_channel": null,
+  "reduce_range": null,
+  "excluded_gather": [],
+  "big_gather_tables": [
+    [
+      250048,
+      768
+    ],
+    [
+      1,
+      768
+    ]
+  ],
+  "fp32_bytes": 1226054016,
+  "int8_bytes": 310821344,
+  "tokenizer_bytes": {
+    "tokenizer.json": 17082756,
+    "config.json": 1429,
+    "special_tokens_map.json": 964,
+    "tokenizer_config.json": 1149
+  },
+  "opset": 17,
+  "max_position_table": 8192
+}
