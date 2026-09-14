@@ -1,0 +1,15 @@
+{
+  "file": "PP-OCRv6_small_rec.onnx",
+  "bytes": 21159378,
+  "sha256": "5435fd747c9e0efe15a96d0b378d5bd157e9492ed8fd80edf08f30d02fa24634",
+  "shards": [
+    {
+      "name": "PP-OCRv6_small_rec.onnx.000",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-OCRv6_small_rec.onnx.001",
+      "bytes": 2285010
+    }
+  ]
+}

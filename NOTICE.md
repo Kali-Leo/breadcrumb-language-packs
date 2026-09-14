@@ -16,6 +16,18 @@ pack as well: the `attribution` field inside the JSON is what the application sh
 - **CMUdict** (Carnegie Mellon University) — English pronunciation, converted from ARPABET to
   IPA. Licence: BSD-2-Clause. https://github.com/cmusphinx/cmudict
 
+## Models
+
+The files under `models/` are not language packs and are not CC BY-SA. Each carries its
+upstream licence:
+
+- **PP-OCRv6** detection and recognition models, from PaddlePaddle/PaddleOCR — Apache-2.0.
+  https://github.com/PaddlePaddle/PaddleOCR
+- **tessdata_fast** Hindi, Bengali and Arabic traineddata, from tesseract-ocr — Apache-2.0.
+  https://github.com/tesseract-ocr/tessdata_fast
+- **gte-multilingual-base** (Alibaba-NLP) — Apache-2.0; **bge-reranker-v2-m3** (BAAI) — MIT.
+  Exported and quantized by us, as described in README.md.
+
 ## Why this is a separate repository
 
 The application is licensed AGPL-3.0-only. CC BY-SA 4.0 grants one-way compatibility with

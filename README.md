@@ -38,3 +38,23 @@ The desktop edition downloads the same files unsplit from this repository's rele
 release per model, tagged `gte-multilingual-base-int8-v1` and `bge-reranker-v2-m3-int8-v1`,
 and falls back to the split copies here (through jsDelivr) when GitHub's release host cannot
 be reached. Each tag points at a commit that holds that model's pieces.
+
+## Text recognition models
+
+`models/pp-ocrv6-small/` and `models/pp-ocrv6-tiny/` hold the PP-OCRv6 detection and
+recognition graphs the application runs over scanned pages — the official ONNX exports from
+[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) (Apache-2.0), unchanged, with each
+recognition model's character list beside it as a plain text file (one character per line,
+taken from the `inference.yml` the export ships with). `small` is what the desktop edition
+downloads (det 9,880,512 bytes, rec 21,159,378 bytes); `tiny` is what the browser edition
+downloads (det 1,780,590 bytes, rec 4,462,639 bytes). The one file over jsDelivr's ceiling,
+`PP-OCRv6_small_rec.onnx`, is stored split the same way as the embedding graph, with its own
+`manifest.json`.
+
+`models/tesseract-fast/` holds the `tessdata_fast` traineddata files
+([tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast), Apache-2.0)
+for Hindi, Bengali and Arabic, gzip-compressed as tesseract.js expects them. They cover the
+three scripts PP-OCRv6 does not.
+
+Tags: `pp-ocrv6-small-v1` (also a release holding the whole files), `pp-ocrv6-tiny-v1` and
+`tesseract-fast-v1`.
