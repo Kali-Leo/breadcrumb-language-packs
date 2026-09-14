@@ -1,0 +1,32 @@
+{
+  "model": "rerank",
+  "repo": "BAAI/bge-reranker-v2-m3",
+  "mode": "rr-per-channel",
+  "per_channel": true,
+  "reduce_range": true,
+  "excluded_gather": [],
+  "big_gather_tables": [
+    [
+      250002,
+      1024
+    ],
+    [
+      1,
+      1024
+    ],
+    [
+      8194,
+      1024
+    ]
+  ],
+  "fp32_bytes": 2271529561,
+  "int8_bytes": 570698919,
+  "tokenizer_bytes": {
+    "tokenizer.json": 17098273,
+    "config.json": 795,
+    "special_tokens_map.json": 964,
+    "tokenizer_config.json": 1173
+  },
+  "opset": 17,
+  "max_position_table": 8192
+}

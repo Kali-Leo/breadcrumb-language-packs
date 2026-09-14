@@ -30,6 +30,11 @@ order with their sizes, and carries the SHA-256 and byte count of the whole file
 can check what it reassembled. Concatenating the pieces in name order reproduces the graph byte
 for byte.
 
+`models/bge-reranker-v2-m3/` holds the desktop-only reranker the same way —
+[BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3) (MIT), dynamic int8,
+570,698,919 bytes in 31 pieces with its own `manifest.json`.
+
 The desktop edition downloads the same files unsplit from this repository's releases, one
-release per model, tagged `gte-multilingual-base-int8-v1` and `bge-reranker-v2-m3-int8-v1`.
-The reranker (`bge-reranker-v2-m3`, MIT) is desktop-only and is published only as release assets.
+release per model, tagged `gte-multilingual-base-int8-v1` and `bge-reranker-v2-m3-int8-v1`,
+and falls back to the split copies here (through jsDelivr) when GitHub's release host cannot
+be reached. Each tag points at a commit that holds that model's pieces.
