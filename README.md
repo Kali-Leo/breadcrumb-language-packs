@@ -58,3 +58,25 @@ three scripts PP-OCRv6 does not.
 
 Tags: `pp-ocrv6-small-v1` (also a release holding the whole files), `pp-ocrv6-tiny-v1` and
 `tesseract-fast-v1`.
+
+## Layout, table and formula models
+
+The models the application runs after text recognition on a scanned page, to find and read
+what is not running text. All are PaddleOCR's own ONNX exports (Apache-2.0), unchanged.
+
+- `models/pp-doclayout-m/` — PP-DocLayout-M, layout detection (23,496,727 bytes, in two
+  pieces with a `manifest.json`); the desktop edition's layout model. Tag and release
+  `pp-doclayout-m-v1`.
+- `models/pp-doclayout-s/` — PP-DocLayout-S (4,914,918 bytes, whole); the browser edition's
+  layout model. Tag `pp-doclayout-s-v1`.
+- `models/slanet-plus/` — SLANet_plus table structure recognition (7,782,138 bytes, whole)
+  with its token list `SLANet_plus_dict.txt`; both editions. Tag and release
+  `slanet-plus-v1`.
+- `models/pp-formulanet-s/` — PP-FormulaNet-S formula recognition (231,878,904 bytes, in
+  thirteen pieces with a `manifest.json`) with its tokenizer
+  `PP-FormulaNet-S_tokenizer.json`; desktop edition only, downloaded on request. Tag and
+  release `pp-formulanet-s-v1`.
+
+Every directory carries a `manifest.json`, even where the file is stored whole (the manifest
+then lists the file itself as its one piece), because the desktop edition reads the manifest
+before it reads the mirror.

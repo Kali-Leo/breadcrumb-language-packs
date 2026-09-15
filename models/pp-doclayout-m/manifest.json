@@ -1,0 +1,15 @@
+{
+  "file": "PP-DocLayout-M.onnx",
+  "bytes": 23496727,
+  "sha256": "8e458bfc919bbf7a35be9802485b5cd30151cb356364cfad09911d2ee1fc1f76",
+  "shards": [
+    {
+      "name": "PP-DocLayout-M.onnx.000",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-DocLayout-M.onnx.001",
+      "bytes": 4622359
+    }
+  ]
+}

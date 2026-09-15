@@ -1,0 +1,59 @@
+{
+  "file": "PP-FormulaNet-S.onnx",
+  "bytes": 231878904,
+  "sha256": "0ee32c7bfbd9e586364f89f71860476ccb5334e35674a61f3df5e0553d6a6dcc",
+  "shards": [
+    {
+      "name": "PP-FormulaNet-S.onnx.000",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.001",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.002",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.003",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.004",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.005",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.006",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.007",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.008",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.009",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.010",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.011",
+      "bytes": 18874368
+    },
+    {
+      "name": "PP-FormulaNet-S.onnx.012",
+      "bytes": 5386488
+    }
+  ]
+}

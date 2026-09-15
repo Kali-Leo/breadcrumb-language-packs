@@ -1,0 +1,11 @@
+{
+  "file": "SLANet_plus.onnx",
+  "bytes": 7782138,
+  "sha256": "3a96a71719247c5d94992fca31266b598c54740388de371f0c75077e2a9e0b55",
+  "shards": [
+    {
+      "name": "SLANet_plus.onnx",
+      "bytes": 7782138
+    }
+  ]
+}

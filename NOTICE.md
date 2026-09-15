@@ -21,8 +21,9 @@ pack as well: the `attribution` field inside the JSON is what the application sh
 The files under `models/` are not language packs and are not CC BY-SA. Each carries its
 upstream licence:
 
-- **PP-OCRv6** detection and recognition models, from PaddlePaddle/PaddleOCR — Apache-2.0.
-  https://github.com/PaddlePaddle/PaddleOCR
+- **PP-OCRv6** detection and recognition models, **PP-DocLayout-S/M** layout detection,
+  **SLANet_plus** table structure recognition and **PP-FormulaNet-S** formula recognition, from
+  PaddlePaddle/PaddleOCR — Apache-2.0. https://github.com/PaddlePaddle/PaddleOCR
 - **tessdata_fast** Hindi, Bengali and Arabic traineddata, from tesseract-ocr — Apache-2.0.
   https://github.com/tesseract-ocr/tessdata_fast
 - **gte-multilingual-base** (Alibaba-NLP) — Apache-2.0; **bge-reranker-v2-m3** (BAAI) — MIT.
