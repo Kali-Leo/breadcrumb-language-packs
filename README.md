@@ -54,10 +54,14 @@ downloads (det 1,780,590 bytes, rec 4,462,639 bytes). The one file over jsDelivr
 `models/tesseract-fast/` holds the `tessdata_fast` traineddata files
 ([tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast), Apache-2.0)
 for Hindi, Bengali and Arabic, gzip-compressed as tesseract.js expects them. They cover the
-three scripts PP-OCRv6 does not.
+three scripts PP-OCRv6 does not. `models/tesseract-best/` holds the `tessdata_best` file
+([tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best), Apache-2.0)
+for Bengali, which the application reads Bengali with: the fast data reads Bengali at 11%
+character error and the best data at 2.6% on the same pages (10,331,048 bytes gzip-compressed,
+under jsDelivr's ceiling, so not split).
 
-Tags: `pp-ocrv6-small-v1` (also a release holding the whole files), `pp-ocrv6-tiny-v1` and
-`tesseract-fast-v1`.
+Tags: `pp-ocrv6-small-v1` (also a release holding the whole files), `pp-ocrv6-tiny-v1`,
+`tesseract-fast-v1` and `tesseract-best-v1`.
 
 ## Layout, table and formula models
 
